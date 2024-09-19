@@ -1,17 +1,16 @@
 {
   "name": "sign-and-broadcast-raw-tx",
-  "version": "1.0.0",
-  "description": "",
-  "main": "sign-and-broadcast-raw-tx.js",
+  "version": "2.0.0",
+  "author": "P2P Validator <info@p2p.org>",
+  "homepage": "https://p2p.org/",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test42": "node test42.js"
+    "generate-gnosis-safe-json": "node generate-gnosis-safe-json.js",
+    "sign-and-broadcast-raw-tx.js": "node sign-and-broadcast-raw-tx.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "ethers": "6.10.0",
-    "dotenv": "14.2.0"
+    "@morpho-labs/gnosis-tx-builder": "2.0.0",
+    "dotenv": "14.2.0",
+    "ethers": "6.13.2"
   }
 }
